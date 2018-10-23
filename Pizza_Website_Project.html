@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title Bar -->
+    <title>Pizza Shoppe</title>
+	<link rel="icon" href="images/Pizza_Icon.ico" />
+	
+	<!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+	
+	<!-- Custom styles for this template -->
+    <link href="./css/style_css.css" rel="stylesheet">
+	
+  </head>
+  <body>
+	
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				Main Menu
+				<i class="fas fa-bars"></i>
+			</button>
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav m-auto">
+             <li class="nav-item px-5">
+               <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+             </li>
+			 <li class="nav-item px-5">
+               <a class="nav-link js-scroll-trigger" href="#location">Location</a>
+             </li>
+             <li class="nav-item px-5">
+               <a class="nav-link js-scroll-trigger" href="#menu">Menu</a>
+             </li>
+             <li class="nav-item px-5">
+                <a class="nav-link js-scroll-trigger" href="#menu">Order Online</a>
+             </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+	<!-- /Navigation -->
+	
+	<!-- Header -->
+	<header class="masthead" id="home">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">The</div>
+          <div class="intro-heading text-uppercase">Pizza Shoppe</div>
+          <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger ready-button" href="#menu"><strong>Ready to Order</strong></a>
+        </div>
+      </div>
+    </header>
+	<!-- /Header -->
+	
+	<!-- Location -->
+     <div class="container" id="location">
+        <div class="intro-text">
+          <div class="location-header">Come Join Us!</div>
+		  <div class="location-block">
+          <div id="locationadd1">514 Main Street, Suite #204</div>
+		  <div id="locationadd2" style="padding-bottom:10px;">Norwalk, CT 06850</div>
+		  <div class="hoursopen" style="font-size:19px; font-weight:bold;">Hours:</div>
+		  <div class="hoursopen">Monday 9:00 AM to 9:00 PM</div>
+		  <div class="hoursopen">Tuesday 9:00 AM to 9:00 PM</div>
+		  <div class="hoursopen">Wednesday 9:00 AM to 9:00 PM</div>
+		  <div class="hoursopen">Thursday 9:00 AM to 9:00 PM</div>
+		  <div class="hoursopen">Friday 10:00 AM to 9:00 PM</div>
+		  <div class="hoursopen">Saturday 11:00 AM to 9:00 PM</div>
+		  <div class="hoursopen">Sunday (CLOSED)</div>
+		  </div>
+        </div>
+    </div>
+	<!-- /Location -->
+	
+	<!-- Menu -->
+    <div class="menucheckout" id="menu">
+		<div class="container">
+			<div class="menuBackground">
+				<div class="menuheader"><h1>Menu</h1></div>
+					<form id="menuForm">
+					<div class="submenu1 d-inline-block col-md-5"><h2 class="menuminiheader" id="leftheader">Type of Pizza</h2>
+						<div class="menu">
+							<h3>Size:</h3>
+								<input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza<br>
+								<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br>
+								<input class="size" type="radio" name="Size" value="Large Pizza" checked=""> Large Pizza<br>
+								<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br>
+						</div>
+						<div class="menu"> 
+							<h3>Sauce</h3>
+								<input class="sauce" type="radio" name="Sauce" value="Marinara Sauce" checked=""> Marinara Sauce<br>
+								<input class="sauce" type="radio" name="Sauce" value="White Sauce"> White Sauce<br>
+								<input class="sauce" type="radio" name="Sauce" value="Barbeque Sauce"> Barbeque Sauce<br>
+								<input class="sauce" type="radio" name="Sauce" value="No Sauce"> No Sauce<br>
+						</div>
+						<div class="menu"> 
+							<h3>Crust</h3>
+								<input class="crust" type="radio" name="Crust" value="Plain Crust" checked=""> Plain Crust<br>
+								<input class="crust" type="radio" name="Crust" value="Garlic Butter Crust"> Garlic Butter Crust<br>
+								<input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust"> Cheese Stuff Crust<br>
+								<input class="crust" type="radio" name="Crust" value="Spicy Crust"> Spicy Crust<br>
+								<input class="crust" type="radio" name="Crust" value="House Special Crust"> House Special Crust<br><br><br><br><br>
+						</div>
+					</div>
+					<div class="submenu2 d-inline-block col-md-5"><h2 class="menuminiheader" id="rightheader">Toppings</h2>
+						<div class="menu"> 
+							<h3>Meats:</h3>
+							<input class="meats" type="checkbox" name="Meats" value="Pepperoni"> Pepperoni<br>
+							<input class="meats" type="checkbox" name="Meats" value="Sausage"> Sausage<br>
+							<input class="meats" type="checkbox" name="Meats" value="Canadian Bacon"> Canadian Bacon<br>
+							<input class="meats" type="checkbox" name="Meats" value="Ground Beef"> Ground Beef<br>
+							<input class="meats" type="checkbox" name="Meats" value="Anchovy"> Anchovy<br>
+							<input class="meats" type="checkbox" name="Meats" value="Chicken"> Chicken<br>
+						</div>
+						<div class="menu"> 
+							<h3>Veggies:</h3>
+							<input class="veggies" type="checkbox" name="Veggies" value="Tomatoes"> Tomatoes<br>
+							<input class="veggies" type="checkbox" name="Veggies" value="Onions"> Onions<br>
+							<input class="veggies" type="checkbox" name="Veggies" value="Olives"> Olives<br>
+							<input class="veggies" type="checkbox" name="Veggies" value="Green Peppers"> Green Peppers<br>
+							<input class="veggies" type="checkbox" name="Veggies" value="Mushrooms"> Mushrooms<br>
+							<input class="veggies" type="checkbox" name="Veggies" value="Pineapple"> Pineapple<br>
+							<input class="veggies" type="checkbox" name="Veggies" value="Spinach"> Spinach<br>
+							<input class="veggies" type="checkbox" name="Veggies" value="Jalapeno"> Jalapeno<br>
+						</div>
+						<div class="menu"> 
+							<h3>Cheese:</h3>
+							<input class="cheese" type="radio" name="Cheese" value="Regular Cheese" checked=""> Regular Cheese<br>
+							<input class="cheese" type="radio" name="Cheese" value="No Cheese"> No Cheese<br>
+							<input class="cheese" type="radio" name="Cheese" value="Extra Cheese"> Extra Cheese<br>
+						</div>
+					</div>
+					</form>
+			</div>
+		</div> 	
+		<div class="checkoutbuttons">
+				<div class="btn checkoutbutton btn-success btn-xl text-uppercase mr-4" onclick="totalOrder()">Review Order</div>
+				<div class="btn checkoutbutton btn-success btn-xl text-uppercase mr-4">Online Checkout</div>
+				<div class="btn checkoutbutton btn-success btn-xl text-uppercase" onclick="clearMenu()">Cancel Order</div>	
+		</div>	
+		<div id="invoice">
+				<div id="title1">You Ordered:</div>
+				<div id="title2"></div>
+				<div id="showText1"></div>
+				<div id="showText2"></div>
+				<div id="totalPrice1">Total Price:</div>
+				<div id="totalPrice2"></div>
+		</div>
+    </div>
+	<!-- /Menu -->
+	
+	<!-- Footer -->
+    <footer class="footerline">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" style="text-align:center;">
+            <span class="copyright list-inline-item">Terms of Use</span>
+          </div>
+		  <div class="col-md-3" style="text-align:center;">
+            <span class="copyright list-inline-item">Privacy Policy</span>
+          </div>
+		  <div class="col-md-6" style="text-align:left;">
+            <span class="copyright list-inline-item">Copyright &copy; Grant Hilton's Pizza Shoppe 2018</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+	<!-- /Footer -->
+	
+    <!-- Optional JavaScript -->
+	
+   <!-- Bootstrap core JavaScript -->
+    <script src="./js/jquery.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+    <script src="./js/jquery.easing.min.js"></script>
+	
+	<!-- Javascript for this Project -->
+	<script src="./js/main.js"></script>
+	
+  </body>
+</html>

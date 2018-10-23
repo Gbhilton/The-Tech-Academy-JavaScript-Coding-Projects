@@ -1,0 +1,295 @@
+#mainNav {
+	text-align: center;
+	background-color: #000;
+	padding-top: .75em;
+	padding-bottom: .75em;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	margin:auto;
+}
+
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../images/Pizza_3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  border-bottom: 10px solid black;
+  text-shadow: 3px 3px 5px black
+}
+
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 35px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 10px;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 60px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 35px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 110px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+}
+
+.ready-button {
+	text-shadow: 0px 0px 0px black
+}
+
+
+.location-header {
+	border: 10px solid black;
+	background-color: #000;
+	color:#fff;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 7px;
+	width: 50%;
+	font-size: 25px;
+	margin: auto;
+	font-style:italic;
+	box-shadow: 1px 1px 2px black;
+	font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.location-block {
+	border-left: 5px solid green;
+	border-top: 5px solid green;
+	border-right: 5px solid green;
+	box-shadow: 2px 2px 5px black;
+	color:#000;
+	background-color:#fff;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 0px;
+	width: 50%;
+	font-size: 25px;
+	margin: auto;
+	margin-top: 15px;
+	-margin-bottom: 15px;
+	font-style:italic;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.hoursopen {
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.menucheckout {
+  text-align: center;
+  color: white;
+  background-image: url("../images/Pizza_3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  border-top: 10px solid green;
+}
+
+.menuBackground {
+	background-color: rgba(244, 245, 247, 0.9);
+	border-radius:10px;
+	color: #28a745;
+	border: 5px solid rgba(40, 167, 69,1);
+}
+
+.menuheader {
+	font-weight:bold;
+	font-size:50px;
+	text-shadow: 1px 1px 1px black;
+	background-color: #000;
+	color:white;
+	margin-bottom:0px;
+	border: 2px solid black;
+}
+
+.menuminiheader {
+	color: white;
+	text-align: center;
+	background-color: rgba(40, 167, 69,0.5);
+	padding-top: 1px;
+	padding-bottom: 5px;
+	text-shadow: .5px .5px .5px black;
+}
+
+#menuForm {
+	margin-bottom:20px;
+}
+
+#leftheader {
+	background-color: rgba(40, 167, 69, 1);
+}
+
+#rightheader {
+	background-color: rgba(40, 167, 69, .8);
+}
+
+h3 {
+	color:#000;
+	opacity: .6;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.submenu1{
+	padding-left:0px;
+	padding-right:0px;
+	color: green;
+	opacity: .8;
+}
+
+.submenu2{
+	padding-left:0px;
+	padding-right:0px;
+	color: green;
+	opacity: .8;
+}
+
+ .menu {
+	 text-align:left;
+	 font-weight:600;
+	 padding-bottom:5px;
+	 padding-left: 15px;
+ }
+ 
+.checkoutbuttons{
+	margin: auto;
+	margin-bottom:0px;
+	margin-top:25px;
+	width: 50%;
+	text-shadow: .5px .5px .5px black;
+}
+
+#invoice {
+	opacity: 0;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+	background-color: rgba(244, 245, 247, 0.9);
+	border: 3px solid red;
+	border-radius: 10px;
+}
+
+#title1 {
+	color: rgba(255,255,255,1);
+	text-align:left;
+	font-size: 25px;
+	font-weight: bold;
+	flex: 1 250px;
+	height: 50px;
+	width: 25%;
+	padding: 5px 0px 0px 10px;
+	background-color: black;
+	border-radius: 7px 0 0 0;
+}
+
+#title2 {
+	color: #fff;
+	flex: 1 250px;
+	height: 50px;
+	width: 25%;
+	padding: 0 0 0px 10px;
+	background-color: black;
+	border-radius: 0 7px 0 0;
+}
+
+#showText1 {
+	text-align: left;
+	font-size: 18px;
+	color: rgba(0,0,0,.8);
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#showText2 {
+	font-size: 18px;
+	flex: 1 250px;
+	color: rgba(0,0,0,.8);
+	padding: 1px 15px 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+	text-align:right;
+}
+
+#totalPrice1 {
+	color: rgba(255,255,255,1);
+	text-align:left;
+	font-size: 25px;
+	font-weight: bold;
+	flex: 1 250px;
+	width: 250px;
+	background-color: black;
+	padding: 5px 0px 5px 10px;
+	border-radius: 0 0 0 7px;
+}
+
+#totalPrice2 {
+	color: rgba(255,255,255,1);
+	text-align:right;
+	font-size: 25px;
+	font-weight: bold;
+	flex: 1 250px;
+	font-weight: bold;
+	background-color: black;
+	padding: 5px 15px 5px 10px;
+	width: 250px;
+	border-radius: 0 0 7px 0;
+}
+
+.footerline {
+	background-color: #000;
+	color: #fff;
+	margin: auto;
+	width:100%;
+	margin-bottom: 0;
+	text-align: center;
+	padding: 25px 0px;
+	font-weight: bold;
+	font-size: 20px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
